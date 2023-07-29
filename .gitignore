@@ -1,0 +1,21 @@
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore user sessions
+data/user.session
+data/bot.session
+
+# Ignore logs (if generated during runtime)
+logs/
+
+# Ignore virtual environment (if created in the root directory)
+venv/
+
+# Ignore any other temporary or build-related files/directories
+*.log
+*.swp
+*.swo
+*.pyo
+*.DS_Store
+.env
