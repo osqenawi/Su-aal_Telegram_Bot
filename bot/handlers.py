@@ -28,7 +28,4 @@ async def handle_start_command(event):
 @make_ref(handlers)
 @events.register(events.NewMessage)
 async def handle_forwarded_messages(event):
-    if event.message.fwd_from:
-        await event.respond('hhhhh')
-        forwarded_message_id = event.message
-        print(f"Message was forwarded. Original message ID: {forwarded_message_id}")
+        await event.respond('mohmaaaaaaaaad')
