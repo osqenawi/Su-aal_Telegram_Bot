@@ -15,6 +15,7 @@ handlers = []
 @events.register(events.NewMessage(pattern='/start'))
 async def handle_start_command(event):
     # Respond with "bot is running" when the user sends "/start"
+    print(event.idd)
     result = await event.respond("bot is running")
     print(result)
     print(event.id)

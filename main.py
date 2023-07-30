@@ -1,7 +1,12 @@
 
 from bot import user_client, bot_client, bot_token
 from bot.handlers import handlers
+from utils.configure_logging import configure_logging
 import traceback
+
+
+# Configure logging
+configure_logging()
 
 
 async def main():
