@@ -11,6 +11,7 @@ config = {
     "api_id": int(os.environ['API_ID']),
     "api_hash": os.environ['API_HASH'],
     "bot_token": os.environ['BOT_TOKEN'],
+    "phone_number": os.environ['PHONE_NUMBER'],
     "bot_session_file": BOT_SESSION_PATH,
     "user_session_file": USER_SESSION_PATH
 }
