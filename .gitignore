@@ -1,3 +1,5 @@
+bot/HELP/
+
 # Ignore Python cache files
 *.pyc
 __pycache__/
