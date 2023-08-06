@@ -1,5 +1,5 @@
 import boto3
-from .config import config
+from config import config
 
 # Get the service resource.
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')

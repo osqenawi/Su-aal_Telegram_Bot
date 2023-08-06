@@ -1,5 +1,3 @@
-from enum import Enum, auto
-
 from telethon import events, Button
 
 from utils.function_refs import make_ref

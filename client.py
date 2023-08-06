@@ -1,4 +1,4 @@
-from bot.config import config
+from config import config
 from telethon.sync import TelegramClient
 
 
