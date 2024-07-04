@@ -1,12 +1,13 @@
-bot/HELP/
+.vscode/
+env/
+config/
 
 # Ignore Python cache files
 *.pyc
 __pycache__/
 
 # Ignore user sessions
-data/user.session
-data/bot.session
+sessions/
 
 # Ignore logs (if generated during runtime)
 logs/
@@ -19,5 +20,14 @@ venv/
 *.swp
 *.swo
 *.pyo
+*.pyd
 *.DS_Store
 .env
+*.db
+*.sqlite3
+
+# Ignore the bot's help file
+/bot/Archive/
+.pylintrc
+data/
+docs/_build/

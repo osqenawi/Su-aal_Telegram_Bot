@@ -1,0 +1,19 @@
+venv/
+venv310/
+bot/Archive/
+.vscode/
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore logs (if generated during runtime)
+logs/**
+
+# Ignore any other temporary or build-related files/directories
+*.log
+*.swp
+*.swo
+*.pyo
+*.pyd
+*.DS_Store
